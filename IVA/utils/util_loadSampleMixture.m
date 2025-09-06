@@ -20,7 +20,7 @@ function [signal1, signal2, fs] = util_loadSampleMixture
 % OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 % SOFTWARE.
 
-folder = "dev1";
+folder = "./dev1";
 name1  = "dev1_female4_liverec_130ms_5cm_sim_1.wav";
 name2  = "dev1_female4_liverec_130ms_5cm_sim_4.wav";
 
