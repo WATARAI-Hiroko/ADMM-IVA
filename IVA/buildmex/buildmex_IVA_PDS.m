@@ -65,6 +65,8 @@ thisPath     = mfilename("fullpath");
 buildmexPath = fileparts(thisPath);           
 IVAPath      = fileparts(buildmexPath);        
 outPath      = fullfile(IVAPath, "algomex", "algomex_IVA_PDS");  
+[~, ~, ~]    = mkdir(IVAPath,"algomex");
+
 
 args = {coder.typeof(X), ...
         coder.typeof(opt.numIter), ...

@@ -58,6 +58,8 @@ thisPath     = mfilename("fullpath");
 buildmexPath = fileparts(thisPath);           
 IVAPath      = fileparts(buildmexPath);        
 outPath      = fullfile(IVAPath, "algomex", "algomex_IVA_AuxIP");  
+[~, ~, ~]    = mkdir(IVAPath,"algomex");
+
 
 args = {coder.typeof(X), ...
         coder.typeof(opt.numIter)};

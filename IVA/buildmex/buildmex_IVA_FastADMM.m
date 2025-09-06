@@ -61,8 +61,9 @@ X    = proc_whitening(Xref);
 
 thisPath     = mfilename("fullpath");
 buildmexPath = fileparts(thisPath);           
-IVAPath      = fileparts(buildmexPath);        
+IVAPath      = fileparts(buildmexPath);
 outPath      = fullfile(IVAPath, "algomex", "algomex_IVA_FastADMM");  
+[~, ~, ~]    = mkdir(IVAPath,"algomex");
 
 args = {coder.typeof(X), ...
         coder.typeof(opt.numIter), ...
