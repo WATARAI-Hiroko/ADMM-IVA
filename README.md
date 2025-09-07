@@ -2,7 +2,7 @@
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=WATARAI-Hiroko/ADMM-IVA) [![DOI](https://zenodo.org/badge/1050193071.svg)](https://doi.org/10.5281/zenodo.17068241) 
 ## About
 
-Paper: "Fast and flexible algorithm for determined blind source separation based on alternating direction method of multipliers."
+Paper: "Fast and flexible algorithm for determined blind source separation based on alternating direction method of multipliers," Acoustical Science and Technology (under review).
 
 
 This repository presents fast MATLAB implementations of independent vector analysis (IVA) for multichannel audio source separation. All the algorithms are compatible with code generation, i.e., they can be converted to C/C++ codes.
@@ -83,7 +83,7 @@ The default values of the name-value arguments for each algorithm are as follows
 The default settings for STFT is `windowLength = 2048` and `windowShift = 1024`.
 
 ## Reference
-1. H. Watarai, K. Matsumoto, and K. Yatabe, "Fast and flexible algorithm for determined blind source separation based on alternating direction method of multipliers" (2025).
+1. H. Watarai, K. Matsumoto, and K. Yatabe, "Fast and flexible algorithm for determined blind source separation based on alternating direction method of multipliers," Acoustical Science and Technology (under review) (2025).
 2. K. Yatabe and D. Kitamura, "Determined BSS based on time-frequency masking and its application to harmonic vector analysis," IEEE/ACM Trans. Audio Speech Lang. Process., 29, 1609–1625 (2021).
 3. N. Ono, "Stable and fast update rules for independent vector analysis based on auxiliary function technique," Proc. IEEE Workshop Appl. Signal Process. Audio Acoust. (WASPAA), pp. 189–192 (2011).
 4. N. Ono, "Fast stereo independent vector analysis and its implementation on mobile phone," Proc. Int. Workshop Acoust. Signal Enhanc. (IWAENC), pp. 1–4 (2012).
