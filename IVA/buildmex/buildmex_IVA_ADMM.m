@@ -43,7 +43,7 @@ function buildmex_IVA_ADMM(x, opt)
 % References:
 %   Hiroko Watarai, Kazuki Matsumoto, Kohei Yatabe, "Fast and flexible algorithm
 %   for determined blind source separation based on alternating direction 
-%   method of multipliers" (2025).
+%   method of multipliers", 47(1), pp. XX–XX (2026).
 
 arguments
     x 
